@@ -1,23 +1,4 @@
-主题使用[Su Yan 的主题](https://github.com/suyan/suyan.github.io),由于原有仓库Issues的问题,没有直接fork[Su Yan 的主题](https://github.com/suyan/suyan.github.io),如果觉得主题不错,还请移步[Su Yan 的主题](https://github.com/suyan/suyan.github.io).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+主题使用[Su Yan 的主题](https://github.com/suyan/suyan.github.io),并进行了部分修改,由于原有仓库Issues的问题,没有直接fork[Su Yan 的主题](https://github.com/suyan/suyan.github.io),如果觉得主题不错,还请移步[Su Yan 的主题](https://github.com/suyan/suyan.github.io).
 
 
 > ### 我的博客
