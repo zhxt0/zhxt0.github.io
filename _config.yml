@@ -1,0 +1,50 @@
+# Site settings
+title: jet's blog 
+email: hi@mail.0xa.xyz
+description: > # this means to ignore newlines until "baseurl:"
+    Hi 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://blog.0xa.xyz # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: jet
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+# twitter: suyan404
+# weibo: suyan0830
+# github: suyan
+# instagram: suyan404
+# linkedin: suyan404
+
+# avatar and Favicon
+avatar: https://raw.githubusercontent.com/jetxa/jetxa.github.io/master/avatar.png
+favicon: https://raw.githubusercontent.com/jetxa/jetxa.github.io/master/favicon.ico
+
+# disqus config
+# disqus:
+#   shortname: suyan-zh
+
+# google analytics config
+# ga:
+#   id: UA-54767140-1
+#   url: yansu.org
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: enabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
