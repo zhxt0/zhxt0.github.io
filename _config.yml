@@ -4,5 +4,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://blog.0xa.xyz # the base hostname & protocol for your site
 author: jet
 
+permalink: /:year/:month/:title.html
 markdown: kramdown
 mathjax: enabled
+
