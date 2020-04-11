@@ -1,11 +1,11 @@
 ---
-title: default
-layout: Blog
+title: 我的 Blog
+layout: default
 ---
 <h2>{{ page.title }} </h2>
 <p>文章</p>
 <ul>
-{% for post in site.post %}
+{% for post in site.posts %}
     <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url}}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
