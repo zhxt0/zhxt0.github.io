@@ -6,5 +6,5 @@ author: jet
 
 permalink: /:year/:month/:title.html
 markdown: kramdown
-mathjax: enabled
+mathjax: true
 
