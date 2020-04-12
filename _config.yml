@@ -7,4 +7,3 @@ author: jet
 permalink: /:year/:month/:title.html
 markdown: kramdown
 mathjax: true
-
