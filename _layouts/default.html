@@ -2,8 +2,9 @@
 <html>
     <style>
 		body{
-			width:75%;
+			width:65%;
 			margin-left: auto;
+            margin-right: auto;
 		}
     </style>
     <head>
@@ -14,7 +15,7 @@
 
         {{ content }}
 
-        <i>Last update: {{ site.time }}</i>
+        <i>Last update: {{ site.time | date: "%Y-%m-%d"}}</i>
 
     </body>
 </html>
