@@ -21,17 +21,23 @@
         <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <style>
             body{
-                width:75%;
+                width:65%;
                 margin-left: auto;
+                margin-right: auto;
             }
         </style>
         <title>{{ page.title }}</title>
     </head>
 
     <body>
-        <h1>{{ page.title }}</h1>
+        <center>
+            <h1>{{ page.title }}</h1>
+        <center>
         
-        ---
+        ------<br>
+        {{ page.date }}<br>
+        分类: {{ page.categories }} <br>
+        ------
 
         {{ content }}
 
